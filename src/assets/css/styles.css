@@ -1,0 +1,766 @@
+body {
+  /* background-color: #004b8d; */
+  background-color: #fff;
+  font-size: 1rem;
+  padding-top: 5.2rem;
+  height: 100%;
+}
+
+/***************** Navigation styling********************************/
+
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+}
+
+/* main {
+  margin-top: 5.2rem;
+} */
+
+p,
+li {
+  font-size: 1.1em;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.dot {
+  color: white;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+}
+
+/******************** Slide background and gradient backgrounds **********************/
+
+/* Slide4's background */
+
+.imgBg1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/image004.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 28rem;
+}
+
+/* Slide 5's background */
+.imgBg2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/image005.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 100%;
+}
+
+/* Slide 6's background */
+.imgBg3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../img/image008.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 100%;
+}
+
+.imgBg4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 75, 141, 0.8),
+      rgba(0, 75, 141, 0.8)
+    ),
+    url(../img/home-image-desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: right;
+  /* min-height: 28rem; */
+}
+
+.imgBg5 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(194, 194, 194, 0.4),
+      rgba(194, 194, 194, 0.4)
+    ),
+    url(../img/retail-choice.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: justify;
+  min-height: 100%;
+}
+
+/* Slide 7's background */
+.imgBg6 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../img/slide2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  border-radius: 0;
+  min-height: 100%;
+}
+
+.imgBg7 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../img/lngTanker.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  border-radius: 0;
+  min-height: 100%;
+}
+.imgBg8 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../img/rig3flip.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  border-radius: 0;
+  min-height: 100%;
+}
+.imgBg9 {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(../img/testimonials.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 100%;
+}
+
+.imgBg10 {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(../img/gasDist.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 100%;
+}
+
+.imgBg11 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/pipes1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: bottom;
+  min-height: 30rem;
+}
+
+.imgBg12 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/retail-marketing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  background-color: #004b8d;
+  min-height: 28rem;
+}
+
+.imgBg13 {
+  background-image: url(../img/retail-marketing-cta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: justify;
+  min-height: 100%;
+}
+
+.imgBg14 {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(../img/BurningGasStove.jpeg);
+  background-size: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 25rem;
+}
+
+.imgBg15 {
+  background-image: url(../img/rig3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 28rem;
+}
+
+.imgBg16 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 75, 141, 0.85),
+      rgba(0, 75, 141, 0.85)
+    ),
+    url(../img/midstream.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 28rem;
+}
+
+.imgBg17 {
+  background-image: url(../img/midstream-cta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 25rem;
+}
+
+.imgBg18 {
+  background-image: url(../img/vector-logo-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 25rem;
+  background-color: #004b8d;
+}
+
+.imgBg19 {
+  background-image: url(../img/solutions-lp.jpg);
+  background-color: #004b8d;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: start;
+  min-height: 25rem;
+}
+.imgBg20 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/oilfield-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg21 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 75, 141, 0.85),
+      rgba(0, 75, 141, 0.85)
+    ),
+    url(../img/valves1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 28rem;
+}
+
+.imgBg22 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/burnerLg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 28rem;
+}
+
+.imgBg23 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/CustomerRetailChoice.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg24 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/CustomerRetailChoice.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+.imgBg25 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/burnerLg.jpeg);
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg26 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/NaturalGasUtility.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg27 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/upstream.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg28 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/rig3flip.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  border-radius: 0;
+  min-height: 30rem;
+}
+
+.imgBg29 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/gasDist.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg30 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../img/palm-trees2.jpg);
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg31 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/NaturalGasStorage2.jpg);
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg32 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/Accounting.jpg);
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
+.imgBg33 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    /* url(../img/1114Release-1.png); */ url(../img/palm-trees.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+/* Background gradient colors for masking */
+
+.bg-opacity-85 {
+  opacity: 0.85;
+}
+
+.darkGradient {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+}
+.lightGradient {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: black;
+}
+
+.lightGradient2 {
+  background-color: rgba(255, 255, 255, 0.82);
+  color: black;
+}
+
+.dropdown-header {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  background-color: #004b8d;
+}
+
+.blue-bg {
+  background-color: #004b8d;
+}
+
+.bg-lighter-grey {
+  background: #e5edef;
+}
+
+.bg-lighter-grey {
+  background-color: rgb(244, 244, 244);
+}
+
+/* .card-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 53rem;
+  max-width: 152rem;
+} */
+
+/************* END of Slide background and gradient backgrounds *****************/
+
+/******************* Font , Link, Shadow, UL and LI styling**********************/
+
+.blue-text {
+  color: #004b8d;
+}
+
+.blue-shadow {
+  text-shadow: 1px 1px 4px #004b8d;
+}
+
+.blue-shadow-2 {
+  text-shadow: 1px 1px 0px #000000, 3px 3px 4px #004b8d;
+}
+
+.lightblue-text {
+  color: #1a94ff;
+}
+
+.white-text {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:on-hover {
+  font-weight: bold;
+}
+
+.link-white {
+  color: white;
+  text-decoration: none;
+}
+.link-white:hover {
+  font-weight: bold;
+  color: rgb(255, 247, 0);
+}
+
+.centerImg {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+
+.cardshadow {
+  box-shadow: 2px 2px 5px #004b8d;
+}
+
+.newscard {
+  height: 14rem;
+  box-shadow: 2px 2px 5px #004b8d;
+}
+
+.imgShadow {
+  box-shadow: 2px 2px 5px #004b8d;
+}
+
+.bottom-margin {
+  margin-bottom: 300px;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+.mt-7 {
+  margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* List stylings */
+
+.blue-dots li {
+  background-color: rgb(232, 232, 232);
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.check li {
+  list-style-image: url("../img/icons2/check-icon.svg");
+  list-style-position: inside;
+}
+
+.list-padding li {
+  padding: 6px;
+}
+
+.list-padding-sml li {
+  padding: 3px;
+}
+
+/* .dropdown-item:hover {
+  background-color: rgba(0, 75, 141, 0.8);
+  color: white;
+} */
+
+.nav-item,
+.dropdown-item,
+.nav-link {
+  color: #004b8d;
+}
+
+/***************** RESPONSIVE section for mobile and tablet and smaller views *****************/
+
+@media (max-width: 1850px) {
+  .imgBg12 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(../img/retail-marketing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    min-height: 20rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .carousel {
+    top: 2rem;
+  }
+
+  .imgBg5 {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(194, 194, 194, 0.4),
+      rgba(194, 194, 194, 0.4)
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: justify;
+    min-height: 100%;
+  }
+
+  .imgBg12 {
+    background-image: linear-gradient(to bottom, #004b8d, #004b8d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: justify;
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 912px) {
+  .carousel {
+    top: 2rem;
+  }
+
+  .imgBg5 {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(194, 194, 194, 0.4),
+      rgba(194, 194, 194, 0.4)
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: justify;
+    min-height: 100%;
+  }
+
+  .imgBg12 {
+    background-image: linear-gradient(to bottom, #004b8d, #004b8d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: justify;
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 50rem) {
+  .imgBg12 {
+    background-color: #004b8d;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/********************** MODAL formatting **********************/
+
+.modal-title {
+  color: black;
+}
+
+.modal-body {
+  color: black;
+  text-align: justify;
+  word-spacing: normal;
+}
+
+/**********Footer section*************************************/
+
+footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  background-color: #004b8d;
+  position: relative;
+
+  bottom: 0;
+
+  font-size: 1rem;
+}
